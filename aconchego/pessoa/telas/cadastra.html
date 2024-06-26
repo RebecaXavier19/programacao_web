@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+  <html lang="pt-br">
+    <head>
+    <meta charset="utf-8"/>
+    <title>Cadastramento de Pessoas </title>
+  </head>
+  <body>
+    <form action="../controlador/processa_cadastra.php" method="post">
+		<label>Nome:
+		  <input type="text" name="nome" required>
+		</label>
+		<br>
+		<label>Genero:
+			<input type="text" name="genero" required>
+		  </label><br>
+		<label>E-mail:		
+		  <input type="email" name="email" required>
+		</label>
+		<br>
+		<label>Senha:
+		  <input type="password" name="senha" placeholder="Digite senha aqui" required>
+		</label>
+		<br>	
+		<label>Id nivel condutor:
+			<input type="number" name="id_nivel_condutor" required>
+		  </label>
+		  <br>
+		  <label>Id nivel conduzido:
+			<input type="number" name="id_nivel_conduzido" required>
+		  </label>
+		  <br>	
+        <input type="submit" value="Salvar">
+	</form>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+  <html lang="pt-br">
+    <head>
+    <meta charset="utf-8"/>
+    <title>Cadastramento de Exames</title>
+  </head>
+  <body>
+    <form action="../controlador/processa_cadastra.php" method="post">
+		<label>ID avaliacao:
+		  <input type="number" name="id_avaliacao" required>
+		</label>
+		<br>
+    <label>ID Aluno :
+		  <input type="number" name="id_pessoa_aluno" required>
+		</label>
+		<br>
+    <label>ID Professor :
+		  <input type="number" name="id_pessoa_professor" required>
+		</label>
+		<br>
+     <label>ID nivel :
+		  <input type="number" name="id_nivel" required>
+		</label>
+		<br>
+    <label>ID exame:
+		  <input type="number" name="id_exame" required>
+		</label>
+		<br>
+    <label>ID Papel :
+		  <input type="text" name="Papel" required>
+		</label>
+		<br>
+        <input type="submit" value="Salvar">
+	</form>
+  </body>
+</html>
